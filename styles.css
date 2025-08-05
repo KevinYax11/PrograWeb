@@ -109,6 +109,7 @@ a{
 .boton-container{
     margin-top: 50px;
     text-align: center;
+    background-color: #2a2a2a;
 }
 
 .boton-admin{
@@ -136,6 +137,7 @@ a{
 }
 
 .agregar-perfil{
+    background-color: #2a2a2a;
     border: 3px solid transparent;
 }
 
@@ -148,3 +150,10 @@ a{
     margin: 10px;
     transition: color 0.3s ease;
 }
+
+.container{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
