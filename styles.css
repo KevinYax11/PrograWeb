@@ -21,18 +21,24 @@ body{
     padding: 50px;
 }
 
+/* Clase Perfiles - Contenedor Principal */
 .perfiles{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 
 }
-
+/* Clase perfil - items individuales */
 .perfil{
-    margin: 10px;
+    width: 150px;
+    margin: 0px;
     text-align: center;
 }
 
+/* Clase Avatar */
 .avatar{
     width: 150px;
     height: 150px;
@@ -42,9 +48,18 @@ body{
     border-radius: 50%;
 }
 
+/* Clase para imagenes de perfil */
 .avatar img{
     width: 100%;
     height: 100%;
     color: grey;
     margin-top: 10px;
+}
+
+
+/* Clase para nombres */
+.perfil p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 1.2rem;
 }
