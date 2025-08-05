@@ -8,3 +8,9 @@ body{
     background-color: black;
 
 }
+
+.logo{
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+}
