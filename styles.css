@@ -11,8 +11,10 @@ body{
 
 .logo{
     color: red;
-    font-size: 20px;
+    font-size: 2rem;
     padding: 20px;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .titulo{
@@ -62,4 +64,27 @@ body{
     color: grey;
     font-size: 15px;
     margin-top: 1.2rem;
+}
+
+.agregar-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    text-decoration: none;
+}
+
+.mas{
+    color: white;
+    font-size: 5rem;
+    line-height: 0.8;
+}
+
+
+.agregar-perfil:hover{
+    background-color: #555;
+}
+
+a{
+    text-decoration: none;
 }
