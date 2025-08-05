@@ -133,3 +133,16 @@ a{
     font-weight: 500;
     letter-spacing: 0.5px;
 }
+
+.agregar-perfil{
+    border: 3px solid transparent;
+}
+
+.agregar-perfil:hover{
+    border: 3px solid white;
+}
+
+.perfil p{
+    font-size: 1.3rem;
+    margin: 10px;
+}
