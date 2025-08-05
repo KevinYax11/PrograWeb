@@ -88,3 +88,16 @@ body{
 a{
     text-decoration: none;
 }
+
+.perfil:hover.avatar{
+    border: 3px solid white;
+}
+
+.perfil:hover p{
+    color: white;
+}
+
+.avatar{
+    border: 3px solid transparent;
+    transition: all border 0.3s ease;
+}
