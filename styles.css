@@ -11,10 +11,13 @@ body{
 
 .logo{
     color: red;
-    font-size: 2rem;
-    padding: 20px;
+    font-size: 2.3rem;
+    font-weight: 900;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    letter-spacing: -1px;
 }
 
 .titulo{
@@ -62,7 +65,7 @@ body{
 /* Clase para nombres */
 .perfil p{
     color: grey;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 1.2rem;
 }
 
@@ -100,4 +103,33 @@ a{
 .avatar{
     border: 3px solid transparent;
     transition: all border 0.3s ease;
+}
+
+.boton-container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.boton-admin{
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;
+    padding: 8px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.boton-admin:hover{
+    color: white;
+    border-color: white;
+}
+
+.perfil p{
+    color: grey;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial ,sans-serif;
+
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
