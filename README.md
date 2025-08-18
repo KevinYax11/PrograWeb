@@ -1,8 +1,6 @@
-**Ingeniero Por Algun motivo extraño, el enlace del dominio me sigue mostrando la pagina Vite + React, cuando el bucket ya me presenta la pagina le dejo el enlace, espero en la siguiente clase me ayude a solucionar el error**
-**Adjunto Cap**
-<img width="1919" height="946" alt="image" src="https://github.com/user-attachments/assets/27ca170e-168f-480a-87b8-473bdc433c7e" />
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d4049b33-30ea-46ca-88f2-fb07a78e6c27" />
+**En la distribución base, me salía la página Vite + React sin cargar el contenido esperado. Al migrarlo a una distribución diferente, y modificarlo en el doppler, el flujo funcionó correctamente, confirmando que el problema estaba en la configuración de la distribución original, raro por que ya me habia funcionado pero no cargaba la pagina**
 
+**d11uh6fymgct5g.cloudfront.net**
 
 <img width="983" height="589" alt="Captura de pantalla 2025-08-17 233232" src="https://github.com/user-attachments/assets/e19b7b46-2862-4c10-a051-1651ce2f7358" />
 <img width="1514" height="610" alt="Captura de pantalla 2025-08-17 233006" src="https://github.com/user-attachments/assets/e03c3edf-fe1c-4033-b966-880caf718097" />
